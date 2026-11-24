@@ -1,0 +1,7 @@
+[extend]
+useDefault = true
+
+[[rules]]
+id = "jenkins-demo-secret"
+description = "Fake secret for testing Jenkins"
+regex = '''DEMO_SECRET_[0-9]{8}'''
